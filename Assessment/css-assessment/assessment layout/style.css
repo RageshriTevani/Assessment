@@ -1,0 +1,796 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(images/mainbackground.jpg);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* edu-header */
+#edu-header
+{
+    width: 100%;
+    height: 40px;
+    background-color: #1f272b;
+    display: flex;
+    flex-direction: row;
+}
+.eduinfo
+{
+    width: 70%;
+    height: auto;
+    color: white;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.edusocialmedia
+{
+    width: 30%;
+    height: auto;
+    padding: 8px;
+    color: white;
+    margin-left: 50%;
+    margin-top: 8px;
+    letter-spacing: 9px;
+}
+
+/* edunavbar */
+#slider
+{
+    width: 100%;
+    height: 600px;
+    background: url(images/mainbg1.jpg);
+    background-size: cover;
+    margin-top: -6%;
+    position: relative;
+}
+.edunavbar
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 250, 250, 0.244);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.edu-logo
+{
+    width: 30%;
+    color: rgb(221, 162, 162);
+    font-size: 22px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-left: 5%;
+}
+.navbar
+{
+    width: 70%;
+    height: auto;
+    margin: 0;
+}
+.navbar ul li
+{
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 20px;
+    padding: 0px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color:rgb(221, 162, 162);
+    word-spacing: 2;
+}
+.caption
+{
+    padding-left: 40px;
+    margin-top: 10%;
+    position: absolute;
+}
+.caption h6
+{
+    margin-left: 40px;
+    margin-top: 25px;
+    padding-top: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+}
+.caption h2
+{
+    margin-left: 40px;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: white;
+}
+.caption p
+{
+    letter-spacing: 1;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 15px;
+    max-width: 570px;
+}
+.main-button-red a
+{
+    margin: auto;
+    margin-left: 70px;
+    margin-top: 27%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(246, 56, 56);
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.edu-carsel-slide
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: -6%;
+    margin-left: 9%;
+    position: relative;
+}
+.edu-box
+{
+    width: 380px;
+    height: 290px;
+    background: url(images/slider.jpg);
+    border-radius: 20px;
+    margin-left: 2%;
+}
+.icon
+{
+    margin-left: 39%;
+    margin-top: 8%;
+}
+.down-content-1 h4
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 21px;
+    letter-spacing: 1;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.down-content-1 p
+{
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+/* edu content */
+#edu-content 
+{
+    width: 100%;
+    height: 1000px;
+    margin: 0;    
+}
+#edu-content h1 
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+#edu-content hr
+{
+    height: auto;
+    text-align: center;
+    border-bottom: solid 2px gray;
+    line-height: 0.1em;
+    margin: 10px 0px 20px;
+}
+.edu-meetings
+{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+}
+.edu-leftsidebar
+{
+    width: 25%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 2%;
+    border-radius: 20px;
+    background-color: white;
+}
+.categories
+{
+    border-radius: 22px;
+    margin-top: 4%;
+}
+.categories h4
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+.categories .main-buttonred
+{
+    border-top: 2px solid;
+    text-align: center;
+    padding-top: 15px;
+    background-color: darkred;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 32px;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    margin-left:5%;
+}
+.edu-rightsidebar
+{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block1
+{
+    width: 450px;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 3%;    
+}
+.block2
+{
+    width: 450px;
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 3%;    
+}
+
+.thumb1
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-image: url(images/meeting-01.jpg); 
+    width: 500px;
+    height: 215px;
+    margin-left: 3%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb2
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-image: url(images/meeting-02.jpg); 
+    width: 500px;
+    height: 215px;
+    margin-left: 3%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb3
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-image: url(images/meeting-03.jpg); 
+    width: 500px;
+    height: 215px;
+    margin-left: 3%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.thumb4
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-image: url(images/meeting-01.jpg); 
+    width: 500px;
+    height: 215px;
+    margin-left: 3%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.block1 .down-content{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 371px;
+    height: 100px;
+    background-color: white;
+    margin-left: 3%;
+    /* padding: 2px; */
+}
+
+.block2 .down-content{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 371px;
+    height: 100px;
+    background-color: white;
+    margin-left: 3%;
+    /* padding: 20px; */
+}
+
+.meet
+{
+    display: inline-block;
+    /* margin-top: 20px;
+    margin-left: 25px; */
+}
+.date
+{
+    /* text-align: center; */
+    /* width: 100%; */
+    display: inline-block;
+    /* margin-top: -7%; */
+    margin-bottom: 5px;
+    margin-left: 20px;
+    /* margin-right: 2px; */
+}
+.date h6
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* width: 5%; */
+}
+.down-content
+{
+    float: left;
+}
+.date h6 span
+{
+    display: block;
+    color: #1f272b;
+    font-size: 17px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+.span{
+    display: block;
+    color: #1f272b;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.down-content h4
+{
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    margin-left: 25px;
+}
+.down-content p
+{
+    color: #1f272b;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 25px;
+}
+
+.price span
+{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 22%;
+    height:28px;
+    text-align: center;
+    position: absolute;
+    left:25px ;
+    top: 25px;
+}
+
+/* our cources */
+
+.our-courses
+{
+    width: 85%;
+    height: 580px;
+    margin-left: 100px;
+}
+
+.our-courses h2
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: -20px;
+    font-size: 25px;
+    color: white;
+    margin-top: 90px;
+}
+
+.item1
+{
+    width: 100%;
+}
+
+.item1 img 
+{
+    width: 100%;
+}
+.course1
+{
+    width: 25%;
+    height: 320px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.countdown
+{
+    color: black;
+    padding:10px ;
+    text-align: center;
+}
+.section-heading
+{
+width: 100%;    
+height: 380px;
+color: white;
+font-size: 18px;
+display: flex;
+}
+.contentdown
+{
+font-size: 15px;
+}
+.infoo
+{
+display: inline;
+}
+.fa-star
+{
+color: orange;
+/* font-size: 7px; */
+float: left;
+margin-left: 3%;
+}
+
+.info{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.amount{
+color: darkred !important;
+float: right;
+padding-right: 5%;
+font-size: 15px;
+}
+
+/* apply here */
+
+#applyhear
+{
+    font-size: larger;
+    background: url(images/apply.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+.applyleft
+{
+    width: 50%;
+    height: 400;
+    color: white;
+}
+.applyleft1
+{
+    background-color: rgba(238, 245, 252, 0.170);
+    width: 75%;
+    height: auto;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 95px;
+}
+.applyleft1 h3
+{
+    font-size: 19px;
+}
+.main-buttonred a
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: red;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.applyleft2
+{
+    background-color: rgba(238, 245, 252, 0.170);
+    width: 75%;
+    height: auto;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 95px;
+}
+.applyleft1 h2
+{
+    font-size: 19px;
+}
+.main-button-orange a
+{
+    margin-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: orange;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*  */
+
+.templatebox{
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -69%;
+    margin-bottom: -980%;
+    margin-left: 110%;
+    margin-right: 5%;
+    position: relative;
+    text-decoration: none; 
+}
+
+.mtgcontent span{
+    display: block;
+    padding: 0px;
+    padding-top: 60px;
+    padding-left: 60px;
+    color: black;
+    font-weight: bolder;
+}
+
+.mtgcontent span:hover{
+    color: orange;
+}
+.mtgcontent a{
+    text-decoration: none;
+}
+.mtgcontent p{
+    display: block;
+    font-size: 15px;
+    color: black;
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 5px;
+    margin-bottom: -35px;
+    padding-top: 7px;
+    text-align: justify;
+}
+
+.mtgtemplate-content1{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-content: center;
+    text-align: justify;
+    font-size: 15px; 
+    color: black;  
+    text-decoration: none; 
+} 
+
+
+/* few facts about our university */
+
+#content 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.leftsidebar
+{
+    width: 35%;
+}
+.video
+{
+    margin-right: 10%;
+    margin-top: 12%;
+    border-radius: 20px;
+    height: 300px;
+}
+.rightsidebar
+{
+    width: 65%;
+    height: 550px;
+}
+.count-area
+{
+    background-color: whitesmoke !important;
+    padding: 25px 30px 35px 30px;
+    margin: 15px 0px;
+}
+.count-digit
+{
+    color: orange;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+.count-title
+{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+#con
+{
+    width: 100%;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+}
+#con h2
+{
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.block3
+{
+    width: 28%;
+    height: 110px;
+    background-color: rgba(250, 250, 250, 0.244);
+    border-radius: 30px;
+    float: left;
+    margin: 2px;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 25px 30px 35px 30px;
+}
+
+/* let's get in touch */
+
+.left-info
+{
+    margin-left: 50px;
+    padding: 30px;
+    display: inline-block;
+    margin-top: 90px;
+}
+#contact
+{
+    width: 105%;
+    height: 350px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border: none;
+    border-radius: 22px;
+    padding-top: 50PX;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 40px;
+    /* margin-right: 40px; */
+}
+#text
+{
+    background-color:rgb(225, 224, 224) ;
+    width: auto;
+    height: 40px;
+    border: none;
+    text-align: left;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-weight: bolder;
+
+}
+#message
+{
+    width: 90%;
+    height: 90px;
+    background-color: rgb(225, 224, 224);
+    color: grey;
+    border: none;
+    text-align: left;
+    font-weight: bolder;
+    border-radius: 22px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+#form-submit
+{
+    color: white;
+    background-color: darkred;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 45%;
+    padding: 12px 20px;
+}
+/* 
+fieldset
+{
+margin: 0 auto;
+} */
+fieldset input
+{
+margin-right: 30px;
+}
+
+
+.right-info
+{
+    width: 15%;
+    height: 490px;
+    margin-left: 70%;
+    margin-top: -75%;
+    margin-bottom: 45px;
+    padding: 10px 20px;
+    color: white;
+    background-color: darkred;
+    border-radius: 22px;
+    display: inline-block;
+    border: none;
+}
+
+.right-info h6{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.right-info span{
+    font-size: 15px;
+    margin-top: -15px;
+}

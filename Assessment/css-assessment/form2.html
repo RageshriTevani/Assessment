@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        
+        body 
+        {
+            font-weight: bold;
+            margin-left: 30px;
+        }
+        .main
+        {
+            background-color: lightgray;
+            margin: 0 auto;
+        }
+
+        .student-inputs
+        {
+            margin: 0 auto;
+            padding: 0px;
+            margin: 0;
+            width: 600px;
+            display: inline-block;
+            text-align: right;
+            margin-right: 200px;
+        }
+
+        .student-inputs input,
+        .student-inputs select 
+        {
+            margin-left: 50px;
+            height: 30px;
+            width: 200px;
+        }
+
+        .student-inputs label
+        {
+            font-size: 17px;
+        }
+
+        .Specialization 
+        {
+            width: 600px;
+            margin-right: 200px;
+            display: inline-block;
+            text-align: right;
+        }
+
+        .Specialization span 
+        {
+            width: 100px;
+        }
+
+        input[type='checkbox'] 
+        {
+            width: 50px;
+            height: 20px;
+        }
+
+        input[type='radio'] 
+        {
+            width: 30px;
+            height: 15px;
+        }
+
+        .gender-class
+        { display: inline-block; }
+
+        .gender-label
+        { display: inline-block; }
+
+        .checkbox-label 
+        {
+            width: 200px;
+            display: inline-block;
+        }
+
+        .checkbox-class
+        { display: inline-block; }
+
+        .checkbox-class-label 
+        { display: inline-block; }
+
+        textarea 
+        { margin-left: 50px; }
+
+        .btn 
+        {
+            margin-top: 20px;
+            background-color: green;
+            width: auto;
+            height: 60px;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center" style="color: red;"><u>Student Registration Form</u></h1>
+    <div class="main">
+        <br>
+
+        <div class="student-inputs">
+            <label for="">First name:</label>
+            <input type="text" name="" id="" required placeholder="Enter your first Name *">
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Last Name: </label>
+            <input type="text" name="" id="" required placeholder="Enter your Last Name *">
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Email: </label>
+            <input type="text" name="" id="" required placeholder="It should contain @... *">
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Mobile: </label>
+            <input type="text" name="" id="" required placeholder="only 10 digits are allowed *">
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label class="gender-label" for=""> Gender :</label>
+            <div class="gender-class">
+                <input id="Form" type="radio" name="gender" placeholder="male">Male
+                <input type="radio" name="gender" placeholder="female">Female
+            </div>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Date of Birth:</label>
+            <input id="Form" type="date" name="Date Of Birth" placeholder="date*" required>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Address:</label>
+            <textarea name="address" placeholder="Address *" cols="25" rows="5" required></textarea>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">City:</label>
+            <input id="Form" type="text" name="city" placeholder="City *" required>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Area PIN:</label>
+            <input id="Form" type="text" name="pincode" placeholder="Pincode *" required>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">State:</label>
+            <input id="Form" type="text" name="state" placeholder="State *" required>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Qualifications:</label>
+            <select name="Select Qualifications *" required>
+                <option value="Select Qualifications ">Select Qualifications</option>
+                <option value="Class X">Class X</option>
+                <option value="Class XII">Class XII</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Masters">Masters</option>
+            </select>
+        </div>
+        <br><br>
+
+        <div class=" Specialization">
+            <div class="checkbox-class-label" for="">Specialization:</div>
+            <div class="checkbox-class">
+                <div>
+                    <input class="select-item" type="checkbox" name="text" placeholder="Computer Science">
+                    <div class="checkbox-label">Computer Science</div>
+                    <div>
+                    </div>
+                    <input class="select-item" type="checkbox" name="text" placeholder="Information Technology">
+                    <div class="checkbox-label">Information Technology</div>
+                    <div>
+                    </div>
+                    <input class="select-item" type="checkbox" name="text" placeholder="Computer Architecture">
+                    <div class="checkbox-label">Computer Architecture</div>
+                    <div>
+                    </div>
+                    <input class="select-item" type="checkbox" name="text" placeholder="Tele communication">
+                    <div class="checkbox-label">Tele Communication</div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="student-inputs">
+            <label for="">Password:</label>
+            <input id="Form" type="Password" name="password" placeholder="Password *" required>
+        </div>
+        <div class="student-inputs">
+            <input class="btn" id="Form" type="submit" name="Registered" value="Registered">
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
